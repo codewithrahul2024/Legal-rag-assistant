@@ -6,7 +6,7 @@ from document_loader import load_legal_document
 from chunking import create_chunks
 
 
-PERSIST_DIRECTORY = Path("chroma_db")
+PERSIST_DIRECTORY =Path("chroma_db")
 
 
 def create_vector_store():
